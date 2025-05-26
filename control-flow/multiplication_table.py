@@ -9,5 +9,5 @@ number = int(input("Enter a number to see its multiplication table: "))
 multiplier = 1
 
 for x in range(1,11):
-    print(number, "*" , multiplier, "=", number * multiplier)
+    print("{0} * {1} = {2}".format(number, multiplier, number * multiplier))
     multiplier = multiplier + 1
